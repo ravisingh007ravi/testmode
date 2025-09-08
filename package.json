@@ -1,0 +1,34 @@
+{
+  "name": "super_bike_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon src/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravisingh007ravi/super_bike_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravisingh007ravi/super_bike_server/issues"
+  },
+  "homepage": "https://github.com/ravisingh007ravi/super_bike_server#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10",
+    "uninstall": "^0.0.0"
+  }
+}
